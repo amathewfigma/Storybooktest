@@ -7,8 +7,13 @@ const meta = {
   title: 'Example/Button',
   component: Button,
   parameters: {
-    // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout
-    layout: 'centered',
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/design/wKS8i4lmXOD7JS6llabIIk/Storybooktest?node-id=6465-8337&m=dev",
+      examples: ['Primary'],
+    },
+      layout: 'centered',
+
   },
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ['autodocs'],
